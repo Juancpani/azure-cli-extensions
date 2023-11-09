@@ -151,6 +151,11 @@ helps['containerapp service qdrant'] = """
     short-summary: Commands to manage the qdrant service for the Container Apps environment.
 """
 
+helps['containerapp service milvus'] = """
+    type: group
+    short-summary: Commands to manage the milvus service for the Container Apps environment.
+"""
+
 helps['containerapp service redis create'] = """
     type: command
     short-summary: Command to create the redis service.
@@ -174,6 +179,11 @@ helps['containerapp service mariadb create'] = """
 helps['containerapp service qdrant create'] = """
     type: command
     short-summary: Command to create the qdrant service.
+"""
+
+helps['containerapp service milvus create'] = """
+    type: command
+    short-summary: Command to create the milvus service.
 """
 
 helps['containerapp service redis delete'] = """
@@ -226,6 +236,11 @@ helps['containerapp add-on qdrant'] = """
     short-summary: Commands to manage the qdrant add-on for the Container Apps environment.
 """
 
+helps['containerapp add-on milvus'] = """
+    type: group
+    short-summary: Commands to manage the milvus add-on for the Container Apps environment.
+"""
+
 helps['containerapp add-on redis create'] = """
     type: command
     short-summary: Command to create the redis add-on.
@@ -251,6 +266,11 @@ helps['containerapp add-on qdrant create'] = """
     short-summary: Command to create the qdrant add-on.
 """
 
+helps['containerapp add-on milvus create'] = """
+    type: command
+    short-summary: Command to create the milvus add-on.
+"""
+
 helps['containerapp add-on redis delete'] = """
     type: command
     short-summary: Command to delete the redis add-on.
@@ -274,6 +294,11 @@ helps['containerapp add-on mariadb delete'] = """
 helps['containerapp add-on qdrant delete'] = """
     type: command
     short-summary: Command to delete the qdrant add-on.
+"""
+
+helps['containerapp add-on milvus delete'] = """
+    type: command
+    short-summary: Command to delete the milvus service.
 """
 
 helps['containerapp env update'] = """

@@ -4,6 +4,7 @@ Release History
 ===============
 upcoming
 ++++++
+* 'az containerapp add-on': add support for creation and deletion of milvus vector database as a dev service
 * 'az containerapp add-on': support for az containerapp add-on commands; deprecation of az containerapp service commands
 * 'az containerapp env create': Support --enable-dedicated-gpu
 * 'az containerapp job create': fix problem of parsing parameters minExecutions and maxExecutions from --yaml
